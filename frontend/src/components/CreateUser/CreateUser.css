@@ -1,0 +1,62 @@
+/* CreateUser.css */
+
+.create-user-form {
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: -10px -10px 15px rgba(255, 255, 255, 0.3), 10px 10px 15px rgba(70, 70, 70, 0.15), inset -10px -10px 15px rgba(255, 255, 255, 0.3), inset 10px 10px 15px rgba(70, 70, 70, 0.15);
+    background: #dbcaa2;
+    zoom: 90%;
+
+}
+
+.create-user-form h2 {
+    color: #3498db;
+    margin-bottom: 20px;
+}
+
+.create-user-form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.create-user-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+
+.create-user-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+.create-user-form button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.create-user-form button:hover {
+    background-color: #2980b9;
+}
+
+.create-user-form .error-message {
+    color: #ff5252;
+    margin-top: 10px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .create-user-form {
+        width: 80%;
+    }
+}
